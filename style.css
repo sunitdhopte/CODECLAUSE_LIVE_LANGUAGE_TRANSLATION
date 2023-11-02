@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    outline:none;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    display: flex;
+    padding:10px;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width: 1000px;
+}
+
+.header{
+    padding: 10px 0px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    padding: 10px 0px;
+    color: #f4f4f4;
+    text-shadow: 1px 1px 10px #000;
+}
+
+.header .button{
+    padding: 20px 0px;
+}
+
+.header .button, li , i {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.button .row select{
+color: #333;
+padding: 5px 5px;
+font-size: 18px;
+border: none;
+background: none;
+cursor: pointer;
+}
+
+.change , .group{
+    cursor: pointer;
+    transition: transform 0.2s ease ;
+}
+
+img:active{
+    transform: scale(0.9);
+}
+
+.group{
+    border-top: 2px solid #ababab;
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.group .text-input{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* border: 2px solid red; */
+}
+
+.text-input div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-input img{
+    margin: 10px 15px;
+    padding: 5px;
+    border-radius: 50%;
+    background: #e5e5e5;
+}
+
+.text-input p{
+    width: 100px;
+    align-self: center;
+}
+
+.group .text-output{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: #f4f4f4;
+    border-left: 2px solid #ababab;
+}
+
+.text-output div{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.text-output img{
+    margin: 10px 15px;
+    padding: 5px;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.text-input textarea, .text-output textarea{
+    resize: none;
+    height: 200px;
+    width: 100%;
+    background: none;
+    border: none;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+p{
+    text-align: end;
+    font-size: 25px;
+    color: #fff;
+}

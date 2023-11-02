@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Language Translation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,200;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h2>Live Language Translation</h2>
+    <div class="header">
+        <ul class="button">
+            <li class="row form">
+                <select></select>
+            </li>
+
+            <li class="change">
+                <img width="30" height="30" src="https://img.icons8.com/cotton/64/data-in-both-directions.png" alt="data-in-both-directions"/>
+            </li>
+            <li class="row to"> 
+                <select></select>
+            </li>
+        </ul>
+        
+        <div class="group">
+            <div class="text-input">
+                <textarea spellcheck="false" class="from-text" placeholder="Type your text"></textarea>
+                <div>
+                <img width="30" height="30" class="from" src="https://img.icons8.com/ios-filled/50/000000/medium-volume--v1.png" alt="medium-volume--v1"/>
+                <p class="count"></p></div>
+            </div>
+            <div class="text-output">
+                <textarea spellcheck="false" readonly disabled class="to-text" placeholder="Translated text"></textarea>    
+                <div>
+                <img width="30" height="30" class="to" src="https://img.icons8.com/ios-filled/50/000000/medium-volume--v1.png" alt="medium-volume--v1"/>
+                <img width="30" height="30" class="copy" src="https://img.icons8.com/material-rounded/24/copy.png" alt="copy"/></div>
+            </div>
+        </div>
+    </div>
+    <p>-Sunit Dhopte</p>
+</div>
+    <script src="language.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
